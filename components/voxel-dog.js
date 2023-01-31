@@ -70,7 +70,7 @@ const VoxelDog = () => {
       controls.autoRotate = true
       controls.target = target
 
-      loadGLTFModel(scene, '/noki_noki.glb', {
+      loadGLTFModel(scene, 'https://drive.google.com/file/d/1VEIB_NoXTDcuclKAbrgkc0TpxmnebFJC/view?usp=sharing', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
